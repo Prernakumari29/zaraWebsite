@@ -193,15 +193,26 @@ text-align: center;
   width: 100%;
   background-color: black;
 }
- #slider img{
-  position: absolute;
-    height: 600px;
-    width: 520px;
-    left: 75%;
-    top: 290%;
-    transform: translate(-50%,-50%);
-    object-fit: cover;
+.page3 .slider{
+  height: 40%;
+  width: 40%;
+  background-color: red;
+  z-index: 999;
+  position: relative;
+  top: 55%;
+  left: 55%;
 }
+
+.slider img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.page3 #dicover-more{
+  z-index:9999 ;
+}
+
+
 #dicover-more{
   position: absolute;
     left: 75%;
