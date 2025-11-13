@@ -200,7 +200,7 @@ text-align: center;
   z-index: 999;
   position: relative;
   top: 60%;
-  left: 55%;
+  left: 60%;
 }
 
 .slider img{
@@ -211,8 +211,8 @@ text-align: center;
 .page3 #dicover-more{
   z-index:9999 ;
   position: relative;
-  top: 20%;
-  
+  top: 120%;
+
 }
 
 
