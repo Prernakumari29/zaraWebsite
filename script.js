@@ -55,23 +55,6 @@ tel.from(".left-right a",{
   stagger:0.3
 })
 
-// tel.from(".section2 h1" , {
-//   opacity:0,
-//   duration:0.8,
-//   scale:0.2,
-//   transformOrigin: "left center"
-// })
-
-// gsap.from(".video video" , {
-//      scale:0,
-//      delay:0.1,
-//      duration:1,
-//      stagger:0.3,
-//      scrollTrigger:{
-//       trigger:".video video",
-//       scroller:"body",
-//      }
-// })
 
 
 gsap.from("#left-text" , {
@@ -97,7 +80,6 @@ gsap.to(".video video" , {
      }
 })
 gsap.from(".zarasale img" , {
-    //  scale:0.8,
      delay:0.6,
      duration:2,
      x:-2000,
