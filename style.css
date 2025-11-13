@@ -265,7 +265,7 @@ button:active{
 
 /* -----------------------------------------page4--------------------------------- */
 #page4{
-  height: 130%;
+  height: 120%;
   width: 100%;
   /* background-color: blue; */
   background: linear-gradient(to top ,rgb(224, 143, 143) 15%, rgb(164, 120, 128) ,rgb(81, 77, 77), black );
