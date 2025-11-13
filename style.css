@@ -1,0 +1,445 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body,html{
+    height: 100%;
+    width: 100%;
+}
+body{
+  overflow-x: hidden;
+}
+nav{
+     height: 100px; 
+     width: 100%; 
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
+    z-index: 10000;
+    
+}
+.leftNav{
+    display: flex;
+    gap: 30px;
+    padding: 35px 60px;
+}
+.leftNav .ri-menu-line{
+    font-size: 50px;
+    font-weight: 800;
+}
+.leftNav .zara-logo img{
+    height: 50px;
+    width: auto;
+}
+.left-right{
+  display: flex;
+  font-size: 25px;
+  gap: 30px;
+  margin-top: 15px;
+}
+.left-right a{
+  color: black;
+  text-decoration: none;
+  position: relative;
+}
+.left-right a::after{
+    content: '';
+    height: 1.5px;
+    width: 0;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    top: 200%;
+    background-color: black;
+    transition: all ease 1s;
+}
+.left-right a:hover::after{
+    width: 100%;
+}
+
+
+.left input {
+  border: none;
+  outline: none;
+  font-size: 14px;
+  color: #333;
+  width: 250px;
+  background: transparent;
+}
+
+.left input::placeholder {
+  color: #777;
+  letter-spacing: 0.5px;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.rightNav{
+    display: flex;
+    gap: 40px;
+    padding: 50px 70px;
+    font-size: 28px;
+}
+.rightNav i:hover{
+    cursor: pointer;
+    scale: 0.95;
+    
+}
+.rightNav .help:hover{
+        scale: 0.95;
+        cursor: pointer;
+        transition: all 0.3s ease;
+}
+ .log-in-button button{
+    border: none;
+    background-color: transparent;
+    font-size: 28 px;
+    text-transform: uppercase;
+}
+ .log-in-button button:hover{
+    background-color: #333;
+    color: white;
+    padding: 5px;
+    transition: all 0.3s ease;
+ }
+
+
+
+.section2 h1{
+  font-size: 80px;
+  margin-top: 150px;
+  margin-bottom: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 200;
+  color: black;
+}
+.scroll {
+  display: flex;
+  overflow-x: hidden;
+
+  gap: 10px;
+  padding: 10px 20px;
+  white-space: nowrap;
+  scroll-behavior: smooth;
+  top: 0;
+  z-index: 1000;
+  background-color: white;
+}
+
+.scroll:hover{
+  overflow-x: auto;
+  scrollbar-width: 2px;
+}
+
+.scroll a {
+  flex: 0 0 auto;
+  padding: 6px 18px;
+  font-size: 16px;
+  text-decoration: none;
+  color: black;
+  border: 2px solid black;
+  border-radius: 25px;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+}
+.scroll a:hover{
+  background-color: black;
+  color: white;
+  border: 2px solid dotted;
+}
+
+
+.page2{
+  height: 100%;
+  width: 100%;
+  background-color: white;
+}
+.video{
+  margin-top: 30px;
+  height: 60%;
+  display: flex;
+  gap: 20px;
+  justify-content: space-around;
+}
+.page2 video{
+  height: 100%;
+  border-radius: 15px;
+}
+.image h1{
+margin-top: 50px;
+margin-bottom: 50px;
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+}
+.image img{
+  height: 50%;
+  width: 100%;
+  object-fit: cover;
+
+}
+
+/* -----------------------------page3--------------------------------------- */
+.page3{
+  height: 200%;
+  width: 100%;
+  background-color: black;
+}
+ #slider img{
+  position: absolute;
+    height: 600px;
+    width: 520px;
+    left: 75%;
+    top: 290%;
+    transform: translate(-50%,-50%);
+    object-fit: cover;
+}
+#dicover-more{
+  position: absolute;
+    left: 75%;
+    top: 315%;
+    transform: translate(-50%,-50%);
+    padding: 12px ;
+    border: none;
+    border-radius: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+}
+button:active{
+    scale: 0.95;
+} 
+#left-text{
+  color: white;
+  position: absolute;
+  top: 270%;
+  margin-left: 70px;
+}
+#left-text h1{
+        font-size: 100px;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+}
+#left-text h3{
+  margin-left: 280px;
+  font-size: 30px;
+}
+#left-text #shop-now{
+  background-color: wheat;
+  padding: 13px;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  margin-left: 430px;
+  margin-top: 20px;
+  text-transform: uppercase;
+}
+#left-text #shop-now:hover{
+  scale: 0.95;
+  background-color: bisque;
+  cursor: pointer;
+}
+
+/* -----------------------------------------page4--------------------------------- */
+#page4{
+  height: 100%;
+  width: 100%;
+  /* background-color: blue; */
+  background: linear-gradient(to top ,white 15%, rgb(164, 120, 128) ,rgb(81, 77, 77), black );
+}
+.hover-slider{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    top: 50%;
+    flex-wrap: wrap;
+}
+.hover-slider{
+  margin-left: 7%;
+}
+.hover-slider img{
+    height: 380px;
+    width: 400px;
+    object-fit: cover;
+    object-position: top;
+    margin-top: 30px;
+}
+
+#text1 #fake-price{
+    text-decoration: line-through;
+}
+ #text1 #real-price{
+    color: red;
+}
+
+
+ /* -----------------------------------------page5------------------------------------------ */
+ #page5{
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(to top , rgba(249, 249, 249),white);
+  margin-top: 20px;
+  position: relative;
+ }
+ #page5 .zarasale{
+  height: 70%;
+  width: 100%;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+ }
+ .zarasale img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: top;
+ }
+
+
+/* ----------------------------------------page6------------------------------------------- */
+  #page6{
+  height: 60%;
+  width: 100%;
+  background-color: rgba(249, 249, 249);
+}
+ #page6 .upper{
+    display: flex;
+    gap: 12px;
+    margin-top: 2px;
+    overflow-x: auto;
+    scrollbar-width: thin;
+ }
+ #page6 img{
+    height: 350px;
+    width: 350px;
+    object-fit: cover;
+    margin-top: 40px; 
+ } 
+ #page6 img:hover{
+  cursor: pointer;
+  scale: 1.14;
+ }
+  #page6 h2{
+    font-family:Arial, Helvetica, sans-serif ;
+    animation: shake 1s infinite;
+    margin-left: 10px;
+  }
+  @keyframes shake {
+    0%,100% { transform: translateX(0);}
+    50%{transform: translateX(-10px);}
+}
+
+
+/* ----------------------------------------page7------------------------------------------ */
+#page7{
+    height: 90%;
+    width: 100%;
+    background-color: white;
+    position: relative;
+
+}
+#page7 .main-box{
+    height: 80%;
+    width: 60%;
+    /* background-color: royalblue; */
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+}
+.logo img{
+    height: 30%;
+    width: 15%;
+    object-fit: cover;
+}
+#page7 .content{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 10%;
+    color: black;
+}
+
+.content .final{
+    margin-top: 15%;
+    line-height: 38px;
+    font-size: 17px;
+    font-weight: 800;
+    color: rgb(102,102,102);
+    font-family: sans-serif;
+}
+.final h3:hover{
+    color: rgb(154, 152, 152);
+    cursor: pointer;
+}
+.rounded-logo{
+    display: flex;
+    gap: 4px;
+    margin-top: 20px;
+}
+.rounded-logo .round{
+    height:30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: white;
+}
+.round{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.round i{
+    z-index: 444;
+    color: black;
+    font-size: 1.3rem;
+}
+.round i:hover{
+    cursor: pointer;
+}
+
+#page7 .img1{
+    position: absolute;
+    top: 50%;
+    right: 230px;
+    height: 70px;
+    width: auto;
+    transform: translate(-50%,-50%);
+    z-index: 50;
+    transition: all ease 0.3s;   
+}
+#page7 .img2{
+    position: absolute;
+     top: 63%;
+    right: 230px;
+    height: 70px;
+    width: 210px;
+    transform: translate(-50%,-50%);
+    z-index: 50;  
+    transition: all ease 0.3s;
+}
+#page7 img:hover{
+    scale: 1.06;
+    cursor: pointer;
+}
+.main-box .line{
+    position: relative;
+    top: 30%;
+    
+}
+.main-box p{
+    color: rgb(102, 102, 102);
+    position: relative;
+    top: 31%;
+    line-height: 25px;
+}
