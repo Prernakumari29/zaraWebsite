@@ -195,7 +195,7 @@ text-align: center;
 }
 .page3 .slider{
   height: 40%;
-  width: 30%;
+  width: 20%;
   background-color: red;
   z-index: 999;
   position: relative;
@@ -212,6 +212,7 @@ text-align: center;
   z-index:9999 ;
   position: relative;
   top: 58%;
+  left: 10%;
 
 }
 
