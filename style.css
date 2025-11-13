@@ -268,15 +268,15 @@ button:active{
   height: 130%;
   width: 100%;
   /* background-color: blue; */
-  background: linear-gradient(to top ,rgb(224, 143, 143) 15%, rgb(164, 120, 128) ,rgb(81, 77, 77), black );
+  background: linear-gradient(to top ,rgb(249, 249, 249) 15%, rgb(164, 120, 128) ,rgb(81, 77, 77), black );
 }
 .hover-slider{
     height: 100%;
     width: 100%;
     display: flex;
-    gap: 20px;
+    gap: 23px;
     /* top: 50%; */
-    top: 5%;
+    top: 7%;
     flex-wrap: wrap;
     /* background-color: blue; */
 }
@@ -294,9 +294,9 @@ button:active{
 .text1 #fake-price{
     text-decoration: line-through;
 }
- .text1 #real-price{
+ /* .text1 #real-price{
     color: red;
-}
+} */
 
 
  /* -----------------------------------------page5------------------------------------------ */
