@@ -275,10 +275,10 @@ button:active{
     margin-top: 30px;
 }
 
-#text1 #fake-price{
+.text1 #fake-price{
     text-decoration: line-through;
 }
- #text1 #real-price{
+ .text1 #real-price{
     color: red;
 }
 
