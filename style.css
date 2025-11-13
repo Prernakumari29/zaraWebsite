@@ -199,7 +199,7 @@ text-align: center;
   background-color: red;
   z-index: 999;
   position: relative;
-  top: 65%;
+  top: 60%;
   left: 55%;
 }
 
@@ -210,6 +210,9 @@ text-align: center;
 }
 .page3 #dicover-more{
   z-index:9999 ;
+  position: relative;
+  top: 20%;
+  
 }
 
 
